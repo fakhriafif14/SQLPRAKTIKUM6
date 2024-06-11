@@ -29,7 +29,7 @@ SELECT * FROM Perusahaan;
 
 ***Output :***
 
-![gambar_ss1](screenshot/ss1.png)
+![gambar](praktikum7/ss1.png)
 
 ***Query MySQL Pada Tabel Departemen***
 
@@ -51,7 +51,7 @@ SELECT * FROM Departemen;
 
 ***Output :***
 
-![gambar_ss2](screenshot/ss2.png)
+![gambar](praktikum7/ss2.png)
 
 ***Query MySQL Pada Tabel Karyawan***
 
@@ -77,7 +77,7 @@ SELECT * FROM Karyawan;
 
 ***Output :***
 
-![gambar_ss3](screenshot/ss3.png)
+![gambar](praktikum7/ss3.png)
 
 ***Query MySQL Pada Tabel Project***
 
@@ -99,7 +99,7 @@ SELECT * FROM Project;
 
 ***Output :***
 
-![gambar_ss4](screenshot/ss4.png)
+![gambar](praktikum7/ss4.png)
 
 ***Query MySQL Pada Tabel Project Deatil***
 
@@ -128,8 +128,8 @@ SELECT * FROM Project_detail;
 
 ***Output :***
 
-![gambar_ss5](screenshot/ss5.png)
-![gambar_ss5](screenshot/ss5-2.png)
+![gambar](praktikum7/ss5.png)
+![gambar](praktikum7/ss5-2.png)
 
 ## Menampilkan Nama Manajer Tiap Departemen
 
@@ -141,7 +141,7 @@ LEFT JOIN Karyawan ON Karyawan.nik = Departemen.manajer_nik;
 
 ***Output :***
 
-![gambar_ss6](screenshot/ss6.png)
+![gambar](praktikum7/ss6.png)
 
 ## Menampilkan Nama Supervisor Tiap Karyawan
 
@@ -165,7 +165,7 @@ WHERE Project.nama = 'A';
 ```
 ***Output :***
 
-![gambar_ss8](screenshot/ss8.png)
+![gambar](praktikum7/ss8.png)
 
 # Soal Latihan Praktikum
 
@@ -181,7 +181,7 @@ GROUP BY Project.id_proj;
 ```
 ***Output :***
 
-![gambar_ss9](screenshot/ss9.png)
+![gambar](praktikum7/ss9.png)
 
 ## 2. Jumlah Karyawan Tiap Departemen Yang Bekerja Pada Tiap-tiap Project.
 
@@ -195,7 +195,7 @@ GROUP BY Project.id_proj, Departemen.id_dept;
 ```
 ***Output :***
 
-![gambar_ss10](screenshot/ss10.png)
+![gambar](praktikum7/ss10.png)
 
 ## 3. Ada Berapa Project Yang Sedang Dikerjakan Oleh Departemen ***RnD***? (ket: project berjalan adalah yang statusnya 1).
 
@@ -209,7 +209,7 @@ WHERE Departemen.nama = 'RnD' AND Project.status = 1;
 ```
 ***Output :***
 
-![gambar_ss11](screenshot/ss11.png)
+![gambar](praktikum7/ss11.png)
 
 ## 4. Berapa banyak Project yang sedang dikerjakan oleh Ari ?
 
@@ -221,7 +221,7 @@ WHERE Karyawan.nama = 'Ari' AND Project_detail.id_proj IN (SELECT id_proj FROM P
 ```
 ***Output :***
 
-![gambar_ss12](screenshot/ss12.png)
+![gambar](praktikum7/ss12.png)
 
 ## 5. Siapa Saja Yang Mengerjakan Project B ?
 
@@ -233,6 +233,7 @@ WHERE Project_detail.id_proj IN (SELECT id_proj FROM Project WHERE nama = 'B');
 ```
 ***Output :***
 
-![gambar_ss13](screenshot/ss13.png)
+![gambar](praktikum7/ss13.png)
+
 
 ## SELESAI 
