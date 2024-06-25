@@ -1,6 +1,6 @@
-# SQLPRAKTIKUM7
+# SQLPRAKTIKUM6
 
-# <img src=https://logos-download.com/wp-content/uploads/2016/05/MySQL_logo_logotype.png width="130px" >
+
 ```
 NIM     : 312310632
 NAMA    : FAKHRI AFIF
